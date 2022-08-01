@@ -302,4 +302,13 @@ p {
     width: 100%;
   }
 
+  .cards {
+    margin-bottom: 5rem;
+  }
+
+  #cta .container-fluid {
+    padding-top: 8rem;
+    padding-bottom: 7rem;
+  }
+  
 }
