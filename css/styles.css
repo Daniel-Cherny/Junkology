@@ -210,7 +210,7 @@ p {
 @media (max-width: 992px) {
 
   #title {
-    height: 69vh;
+    height: 100vh;
   }
 
    #title .big-heading {
@@ -282,10 +282,6 @@ p {
 }
 
 @media (max-width: 425px) {
-
-  #title {
-    height: 100vh;
-  }
 
   #title .big-heading {
     font-family: 'Montserrat', sans-serif;
