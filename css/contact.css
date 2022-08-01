@@ -1,0 +1,128 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    background: #dfebe9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    margin-bottom: 3rem;
+}
+
+p {
+    color: black;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 2% 5%;
+    margin: 0;
+}
+
+/* Headings */
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: black;
+    padding-top: 2%;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(79, 116, 5);
+}
+
+.nav-item {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: black;
+}
+
+#contact-form .container-fluid {
+    padding-top: 0;
+}
+
+.subject-holder {
+    margin-top: 1rem;
+}
+
+.message-holder {
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.btn-submit {
+    margin-top: 1rem;
+}
+
+.icon {
+    color: #e48569;
+}
+
+#last-hr .container-fluid {
+    padding-top: 0;
+}
+
+#footer .container-fluid {
+    padding-top: 3rem;
+    padding-bottom: 0;
+}
+
+.copyright {
+    padding-bottom: 0;
+    color: grey;
+}
+
+@media (max-width: 768px) {
+    .email-holder {
+        margin-top: 1rem;
+    }
+
+    .contact-info {
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1320px) {
+    .full-email {
+        font-size: 0.8rem;
+    }
+
+}

@@ -1,0 +1,167 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    background: #ecf5f4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    margin-bottom: 3rem;
+}
+
+p {
+    color: black;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 2% 5%;
+    margin: 0;
+}
+
+/* Headings */
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: black;
+    padding-top: 2%;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(79, 116, 5);
+}
+
+.nav-item {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: black;
+}
+
+#title .container-fluid {
+    padding-bottom: 1%;
+}
+
+/* Pricing Section */
+
+#about {
+    padding: 3rem 4rem 3rem 4rem;
+    background: #ecf5f4;
+}
+
+.bio {
+    padding-top: 1rem;
+    font-size: 1.75rem;
+    line-height: 2;
+}
+
+.cards {
+    margin-bottom: 2.5rem;
+}
+
+.card-body-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.pricing-column, .pricing-column-2 {
+    padding: 3% 2%;
+}
+
+.feature-row {
+    margin-top: 3rem;
+}
+
+.icon {
+    margin-bottom: 1rem;
+}
+
+#footer .container-fluid {
+    padding-top: 3rem;
+    padding-bottom: 0;
+}
+
+.copyright {
+    padding-bottom: 0;
+    color: grey;
+}
+
+@media (max-width: 768px) {
+
+    #about {
+        padding: 3rem 4rem 5rem 4rem;
+        background: #ecf5f4;
+    }
+    
+    .bio {
+        font-size: 1.5rem;
+      }
+    
+      .pricing-column {
+        margin-top: 5rem;
+      }
+
+      .pricing-column-2 {
+          margin-top: 5rem;
+          margin-bottom: 4rem;
+      }
+      .feature-box {
+          padding: 2.5rem 0;
+      }
+    
+      .card-body-text {
+        font-size: 2rem;
+      }
+    
+      .testimonial-text {
+        font-size: 1.5rem;
+      }
+    
+      .cta-heading {
+        font-size: 2rem;
+      }
+        
+}

@@ -1,0 +1,305 @@
+html {
+  scroll-behavior: smooth;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
+  
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+  }
+  
+p {
+    color: black;
+  }
+  
+.container-fluid {
+    padding: 2% 5%;
+    margin: 0;
+}
+
+#title {
+  background: #dfebe9;
+  height: 80vh;
+}
+
+.title-image {
+  width: 75%;
+}
+
+  /* Headings */
+  
+  .big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4vw;
+    line-height: 1.5;
+    font-weight: 900;
+    color: black;
+    padding-top: 2%;
+  }
+  
+  .section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+        
+  /* Navigation Bar */
+    
+  .navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(79, 116, 5);
+  }
+  
+  .nav-item {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: black;
+  }
+  
+#title .container-fluid .row {
+  padding-top: 6%;
+}
+
+.qr-code {
+  width: 20%;
+}
+
+.title-image {
+  width: 100%;
+  height: auto;
+}
+
+.main-col-md-6 {
+  text-align: left;
+}
+
+.download-button-link {
+  text-decoration: none;
+}
+
+.download-button {
+  background-color: #e48569 !important;
+}
+
+/* Features Section  */
+
+#features {
+  position: relative;
+  z-index: 1;
+  background-color: #bfd5d9;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 0 4%;
+}
+
+.icon {
+  color: rgb(79, 116, 5);
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 4rem;
+  background: #ecf5f4;
+}
+
+.bio {
+  padding-top: 1rem;
+  font-size: 1.75rem;
+  line-height: 2;
+}
+
+.cards {
+  margin-bottom: 2.5rem;
+}
+
+.card-body-text {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background: #436e8e;
+  color: white;
+  padding: 5rem 0;
+  background-image: url("/img/bg-pattern-quotation.svg"), url("/img/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: top 2rem right 95%, top 2rem right 5%;
+  background-size: 4%;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/* Details Section */
+
+#details {
+  background-color: #dfebe9;
+}
+
+/* CTA Section */
+
+#cta {
+  background-color: #dfebe9;
+}
+
+#cta .container-fluid {
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+}
+
+.cta-heading {
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+  color: black;
+}
+
+#footer {
+  background-color: #bfd5d9;
+}
+
+#footer .container-fluid {
+  padding-top: 4rem;
+  padding-bottom: 0;
+}
+
+.copyright {
+  padding-top: 3%;
+  padding-bottom: 0;
+  color: grey;
+}
+
+@media (max-width: 768px) {
+
+  #title {
+    height: 100vh;
+  }
+
+   #title .big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vw;
+    line-height: 1.5;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  #title .container-fluid {
+    text-align: center;
+  }
+
+  .navbar {
+    padding: 0 0 2rem 0;
+  }
+
+  .main-col-md-6 {
+    text-align: center;
+  }
+
+  .title-image-container {
+    padding-top: 2rem;
+    position: static;
+  }
+
+  .title-image {
+    margin-top: 2rem;
+    width: 60%;
+  }
+
+  #features .container-fluid {
+    padding-bottom: 4rem;
+  }
+
+  #features .container-fluid .row {
+    margin-top: 4rem;
+  }
+
+  .feature-box {
+    padding: 2.5rem 0;
+  }
+
+  #pricing {
+    padding-top: 7rem;
+  }
+
+  .bio {
+    font-size: 1.5rem;
+  }
+
+  .pricing-column {
+    margin-top: 5rem;
+  }
+
+  .card-body-text {
+    font-size: 2rem;
+  }
+
+  .testimonial-text {
+    font-size: 1.5rem;
+  }
+
+  .cta-heading {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 425px) {
+
+  #title .big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8vw;
+    line-height: 1.5;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .title-image-container {
+    padding-top: 2rem;
+    position: static;
+  }
+
+  .title-image {
+    margin-top: 3rem;
+    width: 100%;
+  }
+
+}

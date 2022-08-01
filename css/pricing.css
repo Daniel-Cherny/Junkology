@@ -1,0 +1,164 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    background: #dfebe9;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    margin-bottom: 3rem;
+}
+
+p {
+    color: black;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 2% 5%;
+    margin: 0;
+}
+
+/* Headings */
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: black;
+    padding-top: 2%;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(79, 116, 5);
+}
+
+.nav-item {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: black;
+}
+
+#title .container-fluid {
+    padding-bottom: 1%;
+}
+
+.phone-number {
+    color: #e48569;
+}
+
+h1.table-headline {
+    margin: 3rem;
+    text-decoration: underline;
+}
+
+thead tr th {
+    font-size: 2rem;
+    color: olivedrab;
+    text-decoration: underline olivedrab;
+}
+
+.snow-removal-emergency {
+    margin-top: 2.5rem;
+    font-size: 2rem;
+    color: #e48569;
+    font-weight: bold;
+}
+
+#pricing .container-fluid hr {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+/* CTA Section */
+
+#cta {
+    background-color: #dfebe9;
+}
+
+#cta .container-fluid {
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+
+.cta-heading {
+    font-size: 3rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+    color: black;
+}
+
+.download-button-link {
+    text-decoration: none;
+}
+
+/* .download-button {
+    background-color: #e48569 !important;
+} */
+
+#footer .container-fluid {
+    padding-top: 4rem;
+    padding-bottom: 0;
+}
+
+.copyright {
+    padding-bottom: 0;
+    color: grey;
+}
+
+@media (max-width: 768px) {
+    #pricing .container-fluid {
+        padding-top: 4rem;
+    }
+
+    .snow-removal-categories {
+        font-size: 1.5rem;
+    }
+
+    .cta-heading {
+        font-size: 2rem;
+      }
+    
+}
