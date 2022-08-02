@@ -129,6 +129,13 @@ hr {
     color: grey;
 }
 
+@media (max-width: 992px) {
+    
+    .bio {
+        font-size: 1.5rem;
+    }
+}
+
 @media (max-width: 768px) {
 
     #about {
