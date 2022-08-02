@@ -98,7 +98,7 @@ hr {
 }
 
 .cards {
-    margin-bottom: 2.5rem;
+    margin-bottom: 4rem;
 }
 
 .card-body-text {
@@ -107,7 +107,8 @@ hr {
     font-weight: 600;
 }
 
-.pricing-column, .pricing-column-2 {
+.pricing-column,
+.pricing-column-2 {
     padding: 3% 2%;
 }
 
@@ -129,11 +130,12 @@ hr {
     color: grey;
 }
 
-@media (max-width: 992px) {
-    
+@media (min-width: 768px) and (max-width: 992px) {
+
     .bio {
         font-size: 1.5rem;
     }
+
 }
 
 @media (max-width: 768px) {
@@ -142,33 +144,38 @@ hr {
         padding: 3rem 4rem 5rem 4rem;
         background: #ecf5f4;
     }
-    
+
     .bio {
         font-size: 1.5rem;
-      }
-    
-      .pricing-column {
-        margin-top: 5rem;
-      }
+    }
 
-      .pricing-column-2 {
-          margin-top: 5rem;
-          margin-bottom: 4rem;
-      }
-      .feature-box {
-          padding: 2.5rem 0;
-      }
-    
-      .card-body-text {
+    .cards {
+        margin-bottom: 0rem;
+    }
+
+    .pricing-column {
+        margin-top: 5rem;
+    }
+
+    .pricing-column-2 {
+        margin-top: 5rem;
+        margin-bottom: 4rem;
+    }
+
+    .feature-box {
+        padding: 2.5rem 0;
+    }
+
+    .card-body-text {
         font-size: 2rem;
-      }
-    
-      .testimonial-text {
+    }
+
+    .testimonial-text {
         font-size: 1.5rem;
-      }
-    
-      .cta-heading {
+    }
+
+    .cta-heading {
         font-size: 2rem;
-      }
-        
+    }
+
 }
