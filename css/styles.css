@@ -283,13 +283,17 @@ p {
 
 @media (max-width: 425px) {
 
+  #title {
+    height: 100vh;
+  }
+
   #title .big-heading {
     font-family: 'Montserrat', sans-serif;
     font-size: 8vw;
     line-height: 1.5;
     font-weight: 700;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 4rem;
   }
 
   .title-image-container {
